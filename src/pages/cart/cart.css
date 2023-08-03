@@ -1,0 +1,117 @@
+@media (max-width: 849px) {
+    .cart-page {
+      padding: 2rem; /* Adjust padding as per your design */
+    }
+  
+    .table-responsive {
+      overflow-x: auto; /* Enable horizontal scrolling for small screens */
+    }
+  
+    /* Adjust table layout for small screens */
+    table {
+      width: 100%;
+    }
+  
+    th,
+    td {
+      padding: 0.5rem;
+      font-size: 0.875rem; /* Adjust font size as per your design */
+    }
+  
+    /* Hide plus and minus buttons for small screens */
+    .table-responsive button.bg-red-500,
+    .table-responsive button.bg-green-500
+    {
+      display: none;
+    }
+
+    .table-responsive input {
+        margin-left: 50px;
+    };
+  
+    /* Adjust alignment of cart items for small screens */
+    .table-responsive .flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .table-responsive .flex img {
+      margin-bottom: 0.5rem;
+    }
+  
+    /* Adjust alignment of subtotal and buttons for small screens */
+    .flex.items-center.mb-4 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Adjust alignment of "Continue Shopping" and "Checkout" buttons for small screens */
+    .flex.flex-col.md\:flex-row.items-center.justify-between.w-full {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Adjust margins and sizes of buttons for small screens */
+    .flex.flex-col.md\:flex-row.items-center.justify-between.w-full a {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 525px) {
+    .table-responsive .flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .table-responsive .flex img {
+      margin-bottom: 0.5rem;
+    }
+  
+    .table-responsive .flex div {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 431px) {
+    .cart-page {
+      padding: 1rem; /* Adjust padding as per your design */
+    }
+
+    .table-responsive th,
+    .table-responsive td {
+      padding: 0.25rem;
+      font-size: 0.75rem; /* Adjust font size as per your design */
+    }
+
+    /* Adjust alignment of cart items for small screens */
+    .table-responsive .flex {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .table-responsive .flex img {
+      margin-bottom: 0.25rem;
+      max-width: 50px; /* Adjust image size as per your design */
+      max-height: 50px; /* Adjust image size as per your design */
+    }
+
+    .table-responsive .flex div {
+      text-align: center;
+    }
+
+    /* Adjust alignment of subtotal and buttons for small screens */
+    .flex.items-center.mb-4 {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Adjust alignment of "Continue Shopping" and "Checkout" buttons for small screens */
+    .flex.flex-col.md\:flex-row.items-center.justify-between.w-full a {
+      margin-bottom: 0.5rem;
+      width: auto;
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem; /* Adjust font size as per your design */
+    }
+  }

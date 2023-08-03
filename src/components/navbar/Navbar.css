@@ -1,0 +1,57 @@
+/* Navbar.css */
+
+.activate::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 0.1875rem;
+  background-color: #14a1ff;
+  animation: anime 1s ease-in-out;
+}
+
+@keyframes anime {
+    0% {
+      opacity: 0;
+      transform: translateX(0%);
+    }
+  
+    25% {
+      opacity: 1;
+      transform: translateX(12%);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+
+  
+@media screen and (max-width: 375px) {
+    .hide {
+        display: none;
+    }
+    .search {
+        width: 130px;
+    }
+    .navform {
+        position: relative;
+        right: 60px;
+    }
+}
+
+@media (min-width: 930px) and (max-width: 1120px) {
+    .ipad {
+      font-size: 14px;
+      margin-right: -15px;
+    }
+    .lap {
+        position: relative;
+        left: -2px;
+    }
+  }
+  
+  

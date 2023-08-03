@@ -1,0 +1,61 @@
+/* Offers.css */
+.max-w-sm {
+    max-width: 20rem; /* Adjust as needed */
+  }
+  
+  .rounded {
+    border-radius: 0.5rem; /* Adjust as needed */
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* Adjust as needed */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem; /* Adjust as needed */
+    line-height: 2.25rem; /* Adjust as needed */
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* Adjust as needed */
+    line-height: 1.75rem; /* Adjust as needed */
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem; /* Adjust as needed */
+  }
+  
+  .py-4 {
+    padding-top: 1rem; /* Adjust as needed */
+    padding-bottom: 1rem; /* Adjust as needed */
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem; /* Adjust as needed */
+    padding-right: 1.5rem; /* Adjust as needed */
+  }
+  
+  .text-indigo-200 {
+    color: #c3dafe; /* Tailwind CSS indigo-200 color */
+  }
+  
+  .text-gray-600 {
+    color: #718096; /* Tailwind CSS gray-600 color */
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc; /* Tailwind CSS gray-100 background color */
+  }
+  

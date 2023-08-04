@@ -1,6 +1,6 @@
 import React from "react";
 import ItemsContainer from "../../subSections/footerComponents/itemsContainer";
-import SocialIcons from "../socialIcons/socialIcons";
+import SocialIcons from "../navbar/socialIcons/socialIcons";
 import "./footer.css";
 
 const Footer = () => {

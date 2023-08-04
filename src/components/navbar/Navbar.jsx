@@ -28,7 +28,7 @@ function Navbar() {
     <nav className="bg-indigo-100 shadow-lg px-2 py-3 relative z-10">
       <div className="flex items-center justify-between">
         <div>
-          <Link to="/Y-BRO-Clothings/home" className="flex items-center">
+          <Link to="/Y_BRO/" className="flex items-center">
             <img src={logo} alt="" className="h-12 ml-2 md:ml-14" />
           </Link>
         </div>
@@ -49,7 +49,7 @@ function Navbar() {
             className={`navform flex items-center bg-white rounded-full px-2 py-1 absolute -ml-64 -mt-10 ${
               showMenu ? "visible" : "hidden"
             }`}
-            action="/Y-BRO-Clothings/products"
+            action="/Y_BRO/products"
           >
             <input
               name="search"
@@ -72,7 +72,7 @@ function Navbar() {
           }`}
         >
           <Link
-            to="/Y-BRO-Clothings/home"
+            to="/Y_BRO/"
             className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad ${
               activeLink === 0 ? "activate" : ""
             }`}
@@ -81,7 +81,7 @@ function Navbar() {
             Home
           </Link>
           <Link
-            to="/Y-BRO-Clothings/products"
+            to="/Y_BRO/products"
             className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad ${
               activeLink === 1 ? "activate" : ""
             }`}
@@ -90,7 +90,7 @@ function Navbar() {
             Products
           </Link>
           <Link
-            to="/Y-BRO-Clothings/design"
+            to="/Y_BRO/design"
             className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad ${
               activeLink === 2 ? "activate" : ""
             }`}
@@ -99,7 +99,7 @@ function Navbar() {
             Design
           </Link>
           <Link
-            to="/Y-BRO-Clothings/about"
+            to="/Y_BRO/about"
             className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-
             500 ipad ${activeLink === 3 ? "activate" : ""}`}
             onClick={() => handleClick(3)}
@@ -111,7 +111,7 @@ function Navbar() {
             className={`flex items-center bg-white rounded-full px-3 py-1 ml-4 md:ml-6 ${
               showMenu ? "hidden" : ""
             }`}
-            action="/Y-BRO-Clothings/products"
+            action="/Y_BRO/products"
           >
             <input
               name="search"
@@ -133,13 +133,13 @@ function Navbar() {
           }`}
         >
           <Link
-            to="/Y-BRO-Clothings/Auth"
+            to="/Y_BRO/Auth"
             className="text-blue-500 text-2xl no-underline transition-colors duration-200 ease-in-out hover:text-blue-400 "
           >
             <FontAwesomeIcon icon={faUser} />
           </Link>
           <Link
-            to="/Y-BRO-Clothings/cart"
+            to="/Y_BRO/cart"
             className="text-blue-500 text-2xl no-underline transition-colors duration-200 ease-in-out hover:text-blue-400"
           >
             <FontAwesomeIcon icon={faShoppingCart} />
@@ -155,7 +155,7 @@ function Navbar() {
           <ul className="bg-white shadow rounded p-4 flex flex-col gap-4">
             <li>
               <Link
-                to="/Y-BRO-Clothings/home"
+                to="/Y_BRO/"
                 className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad  ${
                   activeLink === 0 ? "activate" : ""
                 }`}
@@ -166,7 +166,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/Y-BRO-Clothings/products"
+                to="/Y_BRO/products"
                 className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad  ${
                   activeLink === 1 ? "activate" : ""
                 }`}
@@ -177,7 +177,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/Y-BRO-Clothings/design"
+                to="/Y_BRO/design"
                 className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad  ${
                   activeLink === 2 ? "activate" : ""
                 }`}
@@ -188,7 +188,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/Y-BRO-Clothings/about"
+                to="/Y_BRO/about"
                 className={`text-blue-700 text-lg font-medium relative transition-colors duration-200 mr-2 hover:text-blue-500 ipad  ${
                   activeLink === 3 ? "activate" : ""
                 }`}
@@ -200,13 +200,13 @@ function Navbar() {
           </ul>
           <div className="flex justify-center gap-4 mt-3">
             <Link
-              to="/Y-BRO-Clothings/Auth"
+              to="/Y_BRO/Auth"
               className="text-blue-500 text-2xl no-underline transition-colors duration-200 ease-in-out hover:text-blue-400"
             >
               <FontAwesomeIcon icon={faUser} />
             </Link>
             <Link
-              to="/Y-BRO-Clothings/cart"
+              to="/Y_BRO/cart"
               className="text-blue-500 text-2xl no-underline transition-colors duration-200 ease-in-out hover:text-blue-400"
             >
               <FontAwesomeIcon icon={faShoppingCart} />

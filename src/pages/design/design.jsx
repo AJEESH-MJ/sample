@@ -35,7 +35,7 @@ function DesignRepository() {
   };
 
   const handleAssistanceClick = () => {
-    window.location.href = "/Y-BRO-Clothings/contact";
+    window.location.href = "/Y_BRO/contact";
   };
 
   return (

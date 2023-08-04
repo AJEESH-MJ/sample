@@ -7,7 +7,7 @@ import {
   faEye,
   faEyeSlash,
 } from "@fortawesome/free-solid-svg-icons";
-import SocialIcons from "../../components/socialIcons/socialIcons";
+import SocialIcons from "../../components/navbar/socialIcons/socialIcons";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);

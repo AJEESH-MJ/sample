@@ -9,7 +9,6 @@
   border-radius: 8px;
 }
 
-/* Card image styles */
 .card_image {
   display: block;
   width: 100%;
@@ -19,12 +18,10 @@
   transition: transform 250ms;
 }
 
-/* Hover effect to scale and move the image up */
 .card:hover .card_image {
   transform: translateY(-30%) scale(0.95);
 }
 
-/* Card body styles */
 .card_body {
   inset: 0;
   z-index: -1;
@@ -36,12 +33,10 @@
   padding: 24px;
 }
 
-/* Card category styles */
 .card_category {
   color: #fff;
 }
 
-/* Card button styles */
 .card_button {
   display: inline-block;
   text-decoration: none;
@@ -51,31 +46,30 @@
   color: #000;
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 767px) {
   .card {
-    max-width: 100%; /* Adjust to make the card full-width on small screens */
-    height: auto; /* Auto height to adjust for variable content */
+    max-width: 100%; 
+    height: auto; 
   }
-  .card_image {
-    transform: translateY(-30%) scale(0.95); /* Adjust the hover effect for small screens */
+  .card_image:hover {
+    transform: translateY(-30%) scale(0.95); 
   }
   .card_body {
-    padding: 12px; /* Reduce padding on small screens */
+    padding: 12px; 
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .card {
-    max-width: 100%; /* Adjust to make the card full-width on medium screens */
+    max-width: 100%; 
   }
   .card_image {
-    transform: translateY(-30%) scale(0.9); /* Adjust the hover effect for medium screens */
+    transform: translateY(-30%) scale(0.9); 
   }
 }
 
 @media screen and (min-width: 1024px) {
   .card {
-    max-width: 375px; /* Limit card width on larger screens */
+    max-width: 375px;
   }
 }

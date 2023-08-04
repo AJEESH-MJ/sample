@@ -1,6 +1,6 @@
 {
+  "homepage": "http://AJEESH-MJ.github.io/Y_BRO",
   "name": "frontend",
-  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2"
   }
 }

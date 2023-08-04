@@ -1,5 +1,5 @@
 import React from "react";
-import { H1, H2 } from "../../assets/index";
+import { H2 } from "../../assets/index";
 import FeaturedProducts from "../../subSections/featuredProducts/featuredProducts";
 import Offers from "../../subSections/offers/offers";
 import Testimonials from "../../subSections/testimonials/testimonials";

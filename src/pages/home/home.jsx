@@ -9,7 +9,7 @@ import BlogPosts from "../../subSections/blogPosts/blogPosts";
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-100 min-h-screen border-4">
+    <div className="bg-gray-100 min-h-screen">
       <main >
         <div
           className="h-[93vh] bg-cover bg-center flex items-center"

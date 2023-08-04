@@ -22,7 +22,7 @@ const BlogPosts = () => {
 
   return (
     <section className="flex flex-wrap justify-center items-center w-full min-h-[40rem] gap-8 sm:gap-10 md:gap-12 lg:gap-20 xl:gap-28">
-      <h1 className="text-3xl font-bold text-gray-600 -mb-14 mt-10 border-b-2 pb-2">Blog Posts</h1>
+      <h2 className="text-3xl font-bold text-gray-600 -mb-14 mt-6">Blog Posts</h2>
       <div className="h1 flex flex-wrap justify-center w-full mb-32 ml-10 gap-8 sm:gap-10 md:gap-12 lg:gap-20 xl:gap-28">
         {blogPosts.map((post) => (
           <div key={post.id} className="blog-card flex items-center w-3/4 max-w-[600px] h-300px p-10 sm:p-14 bg-white rounded-2xl">

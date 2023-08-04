@@ -9,7 +9,7 @@ import BlogPosts from "../../subSections/blogPosts/blogPosts";
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen border-4">
       <main >
         <div
           className="h-[93vh] bg-cover bg-center flex items-center"
@@ -27,7 +27,7 @@ const HomePage = () => {
               </p>
               <a
                 href="/shop"
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow"
+                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg   shadow"
               >
                 Shop Now
               </a>

@@ -5,9 +5,9 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-indigo-100 text-white">
+    <footer className=" bg-gradient-to-b from-indigo-50 to-indigo-200 text-white">
       <ItemsContainer />
-      <div className="md:flex md:justify-around md:items-center sm:px-12 px-4 bg-indigo-200 py-7">
+      <div className="md:flex md:justify-around md:items-center sm:px-12 px-4  bg-gradient-to-b from-indigo-100  to-indigo-300 py-7">
         <h1
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
@@ -36,7 +36,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="bg-indigo-200 flex items-center justify-center">
+      <div className="bg-indigo-300 flex items-center justify-center">
       <h1 className="text-blue-500 text-xl mb-7 mr-1">Follow Us -{">"}</h1>
       <SocialIcons />
       </div>
